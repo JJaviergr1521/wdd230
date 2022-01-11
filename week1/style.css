@@ -1,8 +1,31 @@
 body{
     max-width: 900px;
+    justify-items: center;
+    padding-left: 200px;
 }
 
 header{
     display: flex;
     flex-flow: row;
+    background-color: darkslateblue;
+    padding: 20px;
+    border-radius: 2%;
+    box-shadow: 10px 20px #ababab;
+    font-size: 30px;
+    
+}       
+
+header h1{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+footer{
+    font-size: 30px;
+    background-color: darkslateblue;
+    border-radius: 2%;
+    box-shadow: 10px 20px #ababab;
+}
+
+h2 {
+    font-size: 30px;
 }
